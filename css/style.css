@@ -1,55 +1,105 @@
 @import url(../css/stylesheet.css);
+@import url(../css/yoshi.css);
 body {
     margin: 0px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .font {
 
     font-family: "SupremelyLuxurious", serif;
-    color: aliceblue;
+    color:#cb857c;
     text-decoration: none;
 }
 
 h1 {
-    font-family: 'Supremely Luxurious Demo';
     font-size: 50px;
+    font-family: "The Yoshi";
+    color:#cb857c;
+    margin: 0px;
 }
 
 h5 {
+    margin: 0px;
     font-size: 20px;
+    color:#cb857c;
     text-transform: uppercase;
     letter-spacing: 8px;
-
+    font-family: 'Supremely Luxurious Demo';
 }
 
 .main-card {
     width: 500px;
     height: 300px;
-    border: 2px solid red;
-    /* position: relative; */
+    /* border: 2px solid    red; */
+    margin: auto;
+    /* background-color:rgb(255, 255, 255); */
 }
 
 .card {
     width: 100%;
     height: 100%;
-    border: 2px solid green;
+    position: relative;
+    /* border: 2px solid green; */
 }
 
 .front {
     text-align: center;
     width: 100%;
     height: 100%;
+    align-items: center;
+    display: flex;
     /* position: absolute; */
     border: 2px solid yellow;
 }
-
-.back {
-    width: 100%;
+.child1
+{
+    width: fit-content;
+    border: 2px solid white;
+    margin: auto;
+}
+.back
+{
+    border: 2px solid red;
     height: 100%;
-    border: 2px solid pink;
+    width: 100%;
+    /* display: flex; */
+    position: relative;
+    /* justify-content: center; */
+}
+.hdiv
+{
+    border: 2px solid gray;
+    width: fit-content;
+    height: fit-content;
+    /* margin: auto; */
+    /* position: absolute; */
+    /* top: 0; */
+
+}
+.h1
+{
+    font-size: large;
+}
+.h5
+{
+    font-size: small;
 }
 .detail
 {
-    border: 2px solid green
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid pink;
+}
+
+p
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.fa-solid{
+    color: #cb857c;
 }
