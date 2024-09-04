@@ -22,7 +22,7 @@ h1 {
     /* text-shadow:0px 0px 10px hotpink, 0px 0px 5px pink ; */
     font-size: 50px;
     font-family: "The Yoshi";
-    color: #000000;
+    color: #cb857c;
     margin: 0px;
 }
 
@@ -98,6 +98,7 @@ h5 {
 
 .h1 {
     font-size: large;
+    color: #cb857c;
     text-align: center;
 }
 
